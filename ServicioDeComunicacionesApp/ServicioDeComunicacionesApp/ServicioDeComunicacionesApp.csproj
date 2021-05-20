@@ -52,6 +52,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ServicioDeComunicacionesModel\ServicioDeComunicacionesModel.csproj">
+      <Project>{865e01e4-46e5-45ce-af45-f424b94120e4}</Project>
+      <Name>ServicioDeComunicacionesModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SocketUtils\SocketUtils.csproj">
+      <Project>{541C16D0-20F8-47CF-B059-22C13B8BFF04}</Project>
+      <Name>SocketUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

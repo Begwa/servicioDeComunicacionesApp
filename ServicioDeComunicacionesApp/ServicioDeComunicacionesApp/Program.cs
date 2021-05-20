@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServicioDeComunicacionesApp
 {
-    public partial class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
