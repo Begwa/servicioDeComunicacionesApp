@@ -1,0 +1,16 @@
+﻿using ServicioDeComunicacionesModel.DTO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//namespace
+namespace ServicioDeComunicacionesModel.DAL
+{
+    public interface IMedidorConsumoDAL
+    {
+        void Save(MedidorConsumo mc);
+
+        List<MedidorConsumo> GetAll();
+    }
+}
